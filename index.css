@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color:beige;
+}
+.home-page{
+    background-color: rgb(170, 134, 76);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align:  center;
+    padding-top: 60px;
+}
+
+h1 {
+    color:white;
+    padding: 10px 0 20px 0;
+    font-size: 60px;
+}
+
+.recipe-items {
+    list-style: none;
+}
+
+.recipe {
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.recipe:hover {
+    color:white;
+}
+
+.recipe-items li {
+    padding-bottom: 20px;
+}
