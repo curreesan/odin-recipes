@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: beige;
+}
+
+.recipe-page {
+    background-color: rgb(170, 134, 76);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px; /* Matches homepage top padding, adds side padding */
+}
+
+.recipe-title,
+.section-title,
+.home-link {
+    color: white;
+}
+
+.recipe-title {
+    padding: 10px 0 20px 0;
+    font-size: 60px;
+}
+
+.section-title {
+    padding: 20px 0 10px 0;
+    font-size: 24px;
+}
+
+.home-link {
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.home-link:hover {
+    text-decoration: underline; /* Subtle hover effect */
+}
+
+p,
+.ingredients-list li,
+.steps-list li {
+    color: beige;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.ingredients-list,
+.steps-list {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left; /* Left-align for readability */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients-list li,
+.steps-list li {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .recipe-page {
+        max-width: 90%;
+        padding: 40px 15px;
+    }
+
+    .recipe-title {
+        font-size: 40px;
+        padding: 8px 0 16px 0;
+    }
+
+    .section-title {
+        font-size: 20px;
+        padding: 15px 0 8px 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .home-link {
+        font-size: 16px;
+    }
+
+    .ingredients-list li,
+    .steps-list li {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+}
