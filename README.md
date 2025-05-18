@@ -11,6 +11,7 @@ This is a basic recipe website built as part of Odin Project's Foundation course
     - List of ingredients 
     - Step-by-step cooking instructions 
 - Clean semantic HTML structure
+- Optimal usage of CSS
 
 ## Recipes Included 
 - Pizza
@@ -21,3 +22,4 @@ This is a basic recipe website built as part of Odin Project's Foundation course
 ## Technoliges used 
 - HTML5
 - Git
+- CSS3
